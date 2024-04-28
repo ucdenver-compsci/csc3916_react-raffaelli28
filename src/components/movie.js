@@ -6,7 +6,7 @@ import MovieDetail from "../components/moviedetail"
 import { withRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import { ListGroup, ListGroupItem } from 'react-bootstrap';
 import { BsPinAngle } from 'react-icons/bs';
-import {Glyphicon, Panel, ListGroup, ListGroupItem} from 'react-bootstrap'
+import {Glyphicon, Panel} from 'react-bootstrap'
 import {Image} from 'react-bootstrap'
 
 // support routing
@@ -64,7 +64,7 @@ class Movie extends Component {
                     <ListGroup>
                         <ListGroupItem>{currentMovie.title}</ListGroupItem>
                         <ListGroupItem><ActorInfo actors={currentMovie.actors} /></ListGroupItem>
-                        <ListGroupItem><h4><Glyphicon glyph={'start'}/> {currentMovie.avgRating}</h4></ListGroupItem>
+                        <ListGroupItem><h4><Glyphicon glyph={'star'}/> {currentMovie.avgRating}</h4></ListGroupItem>
                     </ListGroup>
                     <Panel.Body><ReviewInfo reviews={currentMovie.reviews} /></Panel.Body>
                 </Panel>
