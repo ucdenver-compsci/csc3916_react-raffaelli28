@@ -10,7 +10,7 @@ import {Glyphicon, Panel} from 'react-bootstrap';
 import {Image} from 'react-bootstrap';
 
 // support routing
-
+/*
 function Movie(props) {
     const [selectedMovie] = useState(props.selectedMovie);
     const params = useParams();
@@ -23,7 +23,7 @@ function Movie(props) {
 
     return (<MovieDetail movieId={movieId} />)
 }
-
+*/
 
 
 
